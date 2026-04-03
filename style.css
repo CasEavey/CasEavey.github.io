@@ -27,7 +27,7 @@ body {
   border-radius: 10px;
   border: double;
   border-color: burlywood;
-  left: 400px;
+  margin-left: 235px;
   margin-top: 20px;
  }
 
@@ -42,8 +42,8 @@ body {
 
 .Cbox {
   position: absolute;
-  left: 163px;
-  bottom: 50px;
+  margin-left: 2px;
+  margin-top: 305px;
 }
 
 .Hyperfixations {
@@ -53,7 +53,7 @@ body {
   text-align: left;
   width: 200px;
   margin-top: 20px;
-  right: 155px;
+  margin-left: 995px;
   border-radius: 10%;
   height: auto;
  }
@@ -136,7 +136,7 @@ body {
 
  audio {
   position: absolute;
-  right: 157.5px;
-  bottom: 75px;
+  margin-left: 397.5px;
+  margin-top: 440px;
   width: 200px;;
  }
