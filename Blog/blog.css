@@ -1,0 +1,48 @@
+body {
+    background-image: radial-gradient(#ffffff 10%, transparent 10%),
+        radial-gradient(#fafafa 10%, transparent 10%);
+    background-color: skyblue;
+    background-position: 0 0, 25px 25px;
+    background-size: 50px 50px;
+    text-align: center;
+    font-family: cursive
+}
+
+.Mainbox {
+    background-image: url(https://i.pinimg.com/736x/c3/fe/c9/c3fec980cd3bbe34353fa144bbe44daf.jpg);
+    border: 5px double skyblue;
+    padding: 20px;
+	width: 1200px;
+    height: auto;
+	margin-right: auto;
+    margin-left: auto;
+    border-radius: 25px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+ }
+
+ h1 {
+    color: gray;
+    font-size: medium;
+ }
+
+ h2 {
+    color: red;
+    font-size: x-large;
+ }
+
+ h1 a {
+    color: red;
+    font-weight: 100;
+    font-size: x-large;
+    margin-right: 25px;
+ }
+
+ a:hover{
+    font-weight: bold;
+ }   
+
+ .Blogpost{
+    margin-top: 50px;
+    text-align: left;
+ }
