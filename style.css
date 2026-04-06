@@ -202,13 +202,35 @@ body {
   position: absolute;
   width: 347.5px;
   height: 127.5px;
-  background-color: antiquewhite;
+  background-image: url(Art\ Show/Photos/Background.jpg);
   text-align: left;
   border: dashed burlywood;
   color: #333333;
   border-radius: 5px;
   margin-left: 6.125px;
   margin-top: 144.5px;
+ }
+
+ .Art img {
+  position: absolute;
+  width: 144.75px;
+  height: 100.125px;
+  margin-left: 107.5px;
+  margin-top: -32.5px;
+  border: 1px double gray;
+  border-radius: 2.5px;
+ }
+
+ .Art a {
+  text-align: center;
+  position: absolute;
+  width: 175px;
+  height: auto;
+  margin-left: 0px;
+  margin-top: 45px;
+  font-size: large;
+  color: #333333;
+  font-weight: bold;
  }
  
  .Review {
