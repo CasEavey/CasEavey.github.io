@@ -1,0 +1,44 @@
+body {
+    text-align: center;
+    background-color: skyblue;
+}
+
+.Mainbox {
+    background-color: rgb(255, 255, 255, 0.625);
+    border: 5px double skyblue;
+    padding: 20px;
+    width: 1200px;
+    height: auto;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 25px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.Photo {
+    position: absolute;
+    width: 191px;
+    height: 198px;
+    object-fit: cover;
+    object-position: center;
+    margin-left: 25px;
+    margin-top: 25px;
+    z-index: 0;
+}
+
+.frame {
+    z-index: 1;
+    margin: 10px;
+}
+.Title {
+    text-decoration: none;
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: x-large;
+    margin-bottom: 20px;
+}
+
+.Title:hover {
+    font-weight: bold;
+}
