@@ -46,3 +46,7 @@ body {
     margin-top: 50px;
     text-align: left;
  }
+ 
+ p {
+   background-color: rgb(255, 255, 255, 0.625);
+ }

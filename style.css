@@ -20,7 +20,7 @@ body {
  .Bio {
   position: absolute;
   width: 725px;
-  height: 177.5px;
+  height: 175px;
   background-color: #59391D;
   text-align: left;
   color: antiquewhite;
@@ -70,7 +70,7 @@ body {
   padding: 2px 2px 2px 2px;
   border-radius: 5px;
 
-  border: 3px dashed bisque;
+  border: 3px dashed burlywood;
 
 
   height: auto;
@@ -107,7 +107,7 @@ body {
   padding: 2px 2px 2px 2px;
   border-radius: 5px;
 
-  border: 3px dashed bisque;
+  border: 3px dashed burlywood;
 
 
   height: 22px;
@@ -139,4 +139,86 @@ body {
   margin-left: 397.5px;
   margin-top: 440px;
   width: 200px;;
+ }
+
+ .UpTitle {
+  position: absolute;
+  width: 130px;
+  height: 17.5px;
+  background-color: bisque;
+  text-align: center;
+  color: #333333;
+  border: double #333333;
+  border-radius: 7.5px;
+  margin-left: 240px;
+  margin-top: 203px;
+  font-weight: bold;
+
+ }
+
+ .Updates {
+  position: absolute;
+  width: 725px;
+  height: 284px;
+  background-color: bisque;
+  text-align: left;
+  color: antiquewhite;
+  border-radius: 10px;
+  border: double;
+  border-color: #333333;
+  margin-left: 235px;
+  margin-top: 220px;
+  z-index: 0;
+ }
+ 
+ .Blog {
+  position: absolute;
+  width: 347.5px;
+  height: 127.5px;
+  background-image: url(https://i.pinimg.com/736x/c3/fe/c9/c3fec980cd3bbe34353fa144bbe44daf.jpg);
+  text-align: left;
+  border: dashed burlywood;
+  color: #333333;
+  border-radius: 5px;
+  margin-left: 6.125px;
+  margin-top: 6px;
+ }
+ 
+ .Photo {
+  position: absolute;
+  width: 347.5px;
+  height: 127.5px;
+  background-color: antiquewhite;
+  text-align: left;
+  border: dashed burlywood;
+  color: #333333;
+  border-radius: 5px;
+  margin-left: 365px;
+  margin-top: 6px;
+ }
+ 
+ .Art {
+  position: absolute;
+  width: 347.5px;
+  height: 127.5px;
+  background-color: antiquewhite;
+  text-align: left;
+  border: dashed burlywood;
+  color: #333333;
+  border-radius: 5px;
+  margin-left: 6.125px;
+  margin-top: 144.5px;
+ }
+ 
+ .Review {
+  position: absolute;
+  width: 347.5px;
+  height: 127.5px;
+  background-color: antiquewhite;
+  text-align: left;
+  border: dashed burlywood;
+  color: #333333;
+  border-radius: 5px;
+  margin-left: 365px;
+  margin-top: 144.5px;
  }
