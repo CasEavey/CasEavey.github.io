@@ -1,6 +1,7 @@
 body {
     text-align: center;
-    background-color: skyblue;
+    background-image: url(https://www.textures4photoshop.com/tex/thumbs/seamless-sky-background-with-fluffy-clouds-thumb42.jpg);
+    background-size: cover;
 }
 
 .Mainbox {
@@ -37,8 +38,15 @@ body {
     font-family: 'Courier New', Courier, monospace;
     font-size: x-large;
     margin-bottom: 20px;
+    background-color: rgb(255, 255, 255, 0.125);
 }
 
 .Title:hover {
     font-weight: bold;
+}
+
+.Album {
+    background-color: rgb(255, 255, 255, 0.5);
+    border: double 5px white;
+    border-radius: 10px;
 }
