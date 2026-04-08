@@ -204,6 +204,8 @@ body {
   position: absolute;
   width: 150px;
   height: 100px;
+  object-fit: cover;
+  object-position: center;
   margin-left: 97.5px;
   margin-top: -30px;
   border: 1px double gray;
