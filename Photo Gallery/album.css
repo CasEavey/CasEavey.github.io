@@ -46,6 +46,7 @@ body {
 }
 
 .Album {
+    margin-top: 25px;
     background-color: rgb(255, 255, 255, 0.5);
     border: double 5px white;
     border-radius: 10px;
