@@ -1,0 +1,53 @@
+body {
+    text-align: center;
+    background-image: url(https://www.textures4photoshop.com/tex/thumbs/seamless-sky-background-with-fluffy-clouds-thumb42.jpg);
+    background-size: 100% auto;
+}
+
+.Mainbox {
+    background-color: rgb(255, 255, 255, 0.625);
+    border: 5px double skyblue;
+    padding: 20px;
+    width: 1200px;
+    height: auto;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 25px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.Photo {
+    position: absolute;
+    width: 191px;
+    height: 198px;
+    object-fit: cover;
+    object-position: center;
+    margin-left: 25px;
+    margin-top: 25px;
+    z-index: 0;
+}
+
+.frame {
+    z-index: 1;
+    margin: 10px;
+}
+.Title {
+    text-decoration: none;
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: x-large;
+    margin-bottom: 20px;
+    background-color: rgb(255, 255, 255, 0.125);
+}
+
+.Title:hover {
+    font-weight: bold;
+}
+
+.Album {
+    margin-top: 25px;
+    background-color: rgb(255, 255, 255, 0.5);
+    border: double 5px white;
+    border-radius: 10px;
+}
