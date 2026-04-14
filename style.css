@@ -1,6 +1,5 @@
 body {
 	background-color: #E8D6A0;
-	opacity: 0.8;
 	background-image:  linear-gradient(135deg, #d2c498 25%, transparent 25%), linear-gradient(225deg, #d2c498 25%, transparent 25%), linear-gradient(45deg, #d2c498 25%, transparent 25%), linear-gradient(315deg, #d2c498 25%, #E8D6A0 25%);
 	background-position:  10px 0, 10px 0, 0 0, 0 0;
 	background-size: 20px 20px;
@@ -268,11 +267,14 @@ audio {
 	position: absolute;
 	width: 347.5px;
 	height: 127.5px;
-	background-color: antiquewhite;
 	text-align: left;
 	border: dashed burlywood;
 	color: #333333;
 	border-radius: 5px;
 	margin-left: 365px;
 	margin-top: 144.5px;
+
+	background-color: #d11919;
+    background: radial-gradient(circle, transparent 20%, #d11919 20%, #d11919 80%, transparent 80%, transparent), radial-gradient(circle, transparent 20%, #d11919 20%, #d11919 80%, transparent 80%, transparent) 10px 10px, linear-gradient(#ffd2d2 0.8px, transparent 0.8px) 0 -0.4px, linear-gradient(90deg, #ffd2d2 0.8px, #d11919 0.8px) -0.4px 0;
+    background-size: 20px 20px, 20px 20px, 10px 10px, 10px 10px;
 }
